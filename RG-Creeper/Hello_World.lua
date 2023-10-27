@@ -46,6 +46,9 @@ local defenseAttribute = 1
 local lifeAttribute = 5
 local speedAttribute = 7
 local inteligenceAttribute = 2
+local sound = "Tssssss"
+local favoriteTime = "Noturno"
+local item = "Polvora"
 
 -- Função que recebe um atributo e nos retorna uma barra de progresso em String / Texto
 local function getProgressBar(attribute)
@@ -66,6 +69,9 @@ end
 print("=======================================")
 print("| " .. monsterName)
 print("| " .. description, emoji)
+print("| Som: " .. sound)
+print("| Horário Favorito: " .. favoriteTime)
+print("| Item: " .. item)
 print("| ")
 print("| Atributos")
 print("|    Ataque:       " .. getProgressBar(attackAttribute))

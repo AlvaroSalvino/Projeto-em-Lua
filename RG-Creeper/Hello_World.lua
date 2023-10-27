@@ -31,14 +31,19 @@ Habilidades
 ]]
 
 
+-- UTF-8
+os.execute("chcp 65001")
+os.execute("cls")
+
+
 local monsterName = "CREEPER"
 local description = "Um monstro furtivo com temperameto explosivo."
 local emoji = "💥"
 
 print("=======================================")
-print(monsterName)
-print(description)
-print(emoji)
+print("/ " .. monsterName)
+print("/ " .. description)
+print("/ " .. emoji)
 print("/ ")
 print("/ ")
 print("/ ")

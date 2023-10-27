@@ -29,3 +29,22 @@ Habilidades
 
 
 ]]
+
+
+local monsterName = "Creeper"
+local description = "Um monstro furtivo com temperameto explosivo."
+
+print("=======================================")
+print(monsterName)
+print(description)
+print("/ ")
+print("/ ")
+print("/ ")
+print("/ ")
+print("/ ")
+print("/ ")
+print("/ ")
+print("/ ")
+print("/ ")
+print("/ ")
+print("=======================================")

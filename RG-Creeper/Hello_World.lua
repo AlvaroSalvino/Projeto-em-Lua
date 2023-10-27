@@ -41,7 +41,7 @@ local description = "Um monstro furtivo com temperameto explosivo."
 local emoji = "💥"
 
 -- Atributos
-local attackAttribute = 5
+local attackAttribute = 10
 local defenseAttribute = 1
 local lifeAttribute = 5
 local speedAttribute = 7
